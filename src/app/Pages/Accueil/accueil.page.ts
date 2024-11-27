@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-accueil',
   templateUrl: 'accueil.page.html',
-  styleUrls: ['accueil.page.scss']
+  styleUrls: ['accueil.page.scss'],
 })
 export class AccueilPage {
   barbers = [];
@@ -23,7 +23,7 @@ export class AccueilPage {
         price: '20€-30€',
         rating: 4.5,
         image: '../../../assets/icon/image 4.png',
-        profile: '../../../assets/icon/pp.png'
+        profile: '../../../assets/icon/pp.png',
       });
     }
 
